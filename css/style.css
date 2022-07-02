@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    background-color: aqua;
+}
+p::first-line {
+    color: violet;
+    font-variant: small-caps;
+    font-size: 10px;
+}
+p::first-letter {
+    color: blue;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+p.natural::first-line {
+    color: greenyellow;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+p.natural::first-letter {
+    color: violet;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+
+p.final::after {
+    content: "se lo lleva la corriente";
+}
+p.parrafo::after {
+    content: "se lo lleva la corriente";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+::marker { 
+    color: red;
+    font-size: 23px;
+  }
+
+  p.final2::before {
+    content: "se lo lleva la corriente";
+}
+h1{
+    color: green;
+}
