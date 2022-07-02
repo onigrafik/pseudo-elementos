@@ -42,6 +42,6 @@ p.parrafo::after {
   p.final2::before {
     content: "se lo lleva la corriente";
 }
-h1{
-    color: green;
+.titulo {
+    color: rgb(103, 11, 100);
 }
